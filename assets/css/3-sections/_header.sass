@@ -2,12 +2,12 @@ header
   @extend %background-image
   background:
     position: 30px 20px, 50% 50%
-    image: url(), url(../img/#{$hero-path})
-  padding-bottom: 500px
+    image: url(../img/#{$logo-path}), url(../img/#{$hero-path})
+  padding-bottom: 50px
 
 
   .logo
-    +size(500px)
+    +size(50px)
     float: left
     margin: 10px 0 0 30px
 
@@ -56,7 +56,7 @@ header
 @media (max-width: 640px)
   header
     background:
-      position: 50% 30px, 50% 50%
+      position: 50% 20px, 50% 50%
 
     nav
       float: none
