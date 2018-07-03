@@ -10,6 +10,7 @@ email: nmostafiz@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
+- {name: Experience, url: 'clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
